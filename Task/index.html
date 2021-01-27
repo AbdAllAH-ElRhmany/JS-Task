@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="Css/all.min.css">
+        <link rel="stylesheet" href="Css/bootstrap.min.css">
+        <link rel="stylesheet" href="Css/style.css">
+    </head>
+    <body>
+        <a href="index.html" class="home" >Home</a>
+        <div class="container">
+            <input type="text" class="form-control mb-5 d-inline-block w-50 float-left" id="search" placeholder="Enter Product Title..">
+            <select class="form-control mb-5 d-inline-block w-50 float-right" id="filter">
+                <option value="" hidden>Select Size</option>
+                <option value="all">All</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <div class="clearfix"></div>
+            <div class="products d-flex justify-content-between flex-wrap">
+            </div><!-- ./products -->
+        </div><!-- ./container -->
+        <a href="addNewProduct.html" class="add-new"><i class="fa fa-plus"></i></a>
+        <script src="Js/jquery-3.5.1.min.js"></script>
+        <script src="Js/bootstrap.min.js"></script>
+        <script src="Js/popper.min.js"></script>
+        <script src="Js/data.js"></script>
+        <script src="Js/script.js"></script>
+    </body>
+</html>
